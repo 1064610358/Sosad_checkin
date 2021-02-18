@@ -1,10 +1,12 @@
 name: Github Sosad Checkin
+
 on:
     push:
         branches:
             - master
     schedule:
         - cron: '0 1 * * *'
+        
 jobs:
     build:
         runs-on: ubuntu-latest
