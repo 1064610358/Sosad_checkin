@@ -1,5 +1,4 @@
 name: Github Sosad Checkin
- 
 on:
     push:
         branches:
