@@ -20,6 +20,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - run: node index.js
+      - run: tongzhi.js
         env:
           botToken: ${{ secrets.botToken }}
           chatID: ${{ secrets.chatID }}
