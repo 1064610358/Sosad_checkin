@@ -1,4 +1,4 @@
-const qs = require('querystring')
+const qs = require('qs')
 const axios = require('axios')
 
 const SERVER = `SCT106651T4KJLx60fw3C3pstCHWRZqpoN` // Server 酱的 Token
