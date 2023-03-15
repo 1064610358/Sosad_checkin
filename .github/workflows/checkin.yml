@@ -1,4 +1,4 @@
-# Change this to re-enable the workflow
+# Change this to re-enable the workflow.
 name: Github Sosad Checkin
 
 on:
