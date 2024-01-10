@@ -6,7 +6,7 @@ on:
     branches:
       - master
   schedule:
-    - cron: "0 1 * * *"
+    - cron: "0 0 * * *"
   workflow_dispatch: # enable manual
 
 jobs:
